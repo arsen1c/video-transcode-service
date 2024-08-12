@@ -1,0 +1,21 @@
+{
+  "name": "video-transcoding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc-watch --onSuccess \"node dist/index\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.624.0",
+    "aws-lambda": "^1.0.7",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.2.0",
+    "tsc-watch": "^6.2.0"
+  }
+}
